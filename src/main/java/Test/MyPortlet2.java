@@ -24,8 +24,12 @@ import javax.portlet.PortletRequestDispatcher;
 import javax.portlet.RenderRequest;
 import javax.portlet.RenderResponse;
 import javax.portlet.WindowState;
-
-public class MyPortlet extends GenericPortlet {
+/**
+ * 
+ * @author Lee
+ *
+ */
+public class MyPortlet2 extends GenericPortlet {
 
     private static final String NORMAL_VIEW = "/normal.jsp";
     private static final String MAXIMIZED_VIEW = "/maximized.jsp";
